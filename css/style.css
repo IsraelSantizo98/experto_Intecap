@@ -1,6 +1,6 @@
 :root{
     --cuadroNegro: #2C2C2C;
-    --cuadroAzul: ##0460AD;
+    --cuadroAzul: #0460AD;
 }
 *{
     margin: 0;
@@ -14,17 +14,18 @@
     width: 60%;
     margin: 0 auto;
     position: relative;
+    overflow: hidden;
 }
-img{
-    position: absolute;
+/* img{
     right: 0;
     top: 0;
     overflow: hidden;
-}
+} */
 ul {
+    position: absolute;
     list-style: none;
     top: 0;
-    left: 0;
+    right: 0;
     overflow: hidden;
 }
 li{
@@ -36,4 +37,14 @@ li{
 #cuadroAzul{
     background-color: var(--cuadroAzul);
     width: 100%;
+}
+.lateralIzquerdo{
+    border: 1px solid black;
+    width: 60%;
+    float: left;
+}
+.lateralDerecho{
+    border: 1px solid black;
+    width: 40%;
+    float: left;
 }
