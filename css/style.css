@@ -1,5 +1,6 @@
 :root{
     --cuadroNegro: #2C2C2C;
+    --cuadroAzul: ##0460AD;
 }
 *{
     margin: 0;
@@ -14,11 +15,16 @@
     margin: 0 auto;
     position: relative;
 }
+img{
+    position: absolute;
+    right: 0;
+    top: 0;
+    overflow: hidden;
+}
 ul {
     list-style: none;
-    position: absolute;
     top: 0;
-    right: 0;
+    left: 0;
     overflow: hidden;
 }
 li{
@@ -26,4 +32,8 @@ li{
     float: left;
     border-left: 1px solid #fff;
     padding: 25px;
+}
+#cuadroAzul{
+    background-color: var(--cuadroAzul);
+    width: 100%;
 }
