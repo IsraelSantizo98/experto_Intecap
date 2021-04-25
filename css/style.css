@@ -1,0 +1,29 @@
+:root{
+    --cuadroNegro: #2C2C2C;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+#cuadroNegro{
+    background-color: var(--cuadroNegro);
+    width: 100%;
+}
+.centrar{
+    width: 60%;
+    margin: 0 auto;
+    position: relative;
+}
+ul {
+    list-style: none;
+    position: absolute;
+    top: 0;
+    right: 0;
+    overflow: hidden;
+}
+li{
+    color: #fff;
+    float: left;
+    border-left: 1px solid #fff;
+    padding: 25px;
+}
