@@ -43,8 +43,44 @@ li{
     width: 60%;
     float: left;
 }
+.textosTitulo{
+    color: #fff;
+    text-align: center;
+    font-family: "Segoe ui light", sans-serif;
+}
+.margenArriba{
+    margin-top: 35px;
+}
+.margenInferior{
+    margin-bottom: 35px;
+}
+.btn{
+    background-color: #27b527;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    padding: 40px;
+    display: block;
+    width: 40%;
+    margin: 0 auto;
+    font-family: "Segoe ui light", sans-serif;
+    font-size: 25px;
+    border-radius: 50px;
+    margin-bottom: 25px;
+}
 .lateralDerecho{
     border: 1px solid black;
     width: 40%;
     float: left;
+}
+.imagenPrincipal{
+    /* width: 70%; */
+    display: block;
+    margin: 0 auto;
+}
+#cuadroVerde{
+    background-color: #21bc4e;
+}
+.bordeInferior{
+    border-bottom: 3px solid white;
 }
